@@ -20,13 +20,29 @@ When you specify a dependency in pom.xml maven will look for it in the central r
 if it does not exist in the central repository then maven will fetch it from the remote 
 repository so using the internet while using Maven is mandatory.
 
-![image](Images/MavenArch.png)
-**Figure 1: Maven Architecture (Source: [1])**
+<div align="center">
+
+<img src="Images/MavenArch.png" alt="Maven Architecture" width="600">
+
+<br>
+
+Figure 1: Maven Architecture (Source: [1])
+
+</div>
+<br>
 
 ## Maven Lifecycle
 
-![image](Images/MavenLifecycle.png)
-**Figure 2 Maven Phases (src: [2])**
+<div align="center">
+
+<img src="Images/MavenLifecycle.png" alt="Maven Architecture" width="600">
+
+<br>
+
+Figure 2: Maven Lifecycle (Source: [2])
+
+</div>
+<br>
 
 Default Lifecycle is responsible for the projet deployment.
 Clean Lifecycle Used to clean the project and remove all files made by the previous build.
@@ -34,8 +50,17 @@ Site Lifecycle To create  a project’s site documentation.
 Maven Phases and goals
 Maven’s build lifecycle goes through a set of stages, they are called build phases.A build phase is made up of a set of goals. Maven goals represent a specific task that contributes to the building and managing of a project.
 
-![image](Images/MavenPhases.png)
-**Figure 3 Maven Phases and goals (src: [3])**
+<div align="center">
+
+<img src="Images/MavenPhases.png" alt="Maven Architecture" width="600">
+
+<br>
+
+**Figure 3 Maven Phases and goals (Source: [3])**
+
+</div>
+<br>
+
 
 A phase is a step in the lifecycle, and each phase contains goals which are tasks.
 When you run a phase you are executing the goals related to it in order. 
@@ -70,6 +95,7 @@ Example:
 After adding the dependency maven will automatically download the library
 
 ## Useful Maven Commands
+
 
 <table>
   <tr>
